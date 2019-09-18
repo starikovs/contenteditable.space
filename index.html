@@ -1,1 +1,35 @@
-<h1>Hello, contenteditable.space!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Content-editable Space: full screen content editable space in your browser</title>
+  <link rel="icon" type="image/png" href="https://i.imgur.com/NZrLr3H.png">
+  <style>
+    body {
+      font: 16px/1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 2rem;
+    }
+
+    body:empty:before {
+      color: rgba(0,0,0,0.33);
+      content: 'Click and start typing';
+      display: block;
+      left: 50%;
+      pointer-events: none;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+<body contenteditable>
+  
+</body>
+</html>
+
+<!--
+If you don't like this service but want something similar,
+just copy and paste this one line to your browser's tab:
+data:text/html, <html contenteditable>
+-->
