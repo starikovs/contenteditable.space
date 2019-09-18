@@ -10,15 +10,18 @@
     }
 
     body {
-      box-sizing: border-box;
       font: 16px/1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
       margin: 0;
       min-height: 100%;
+    }
+
+    [contenteditable] {
+      box-sizing: border-box;
+      min-height: 100vh;
       padding: 2rem;
     }
 
-    body:empty:before,
-    body:blank:before, {
+    [contenteditable]:empty:before {
       color: rgba(0,0,0,0.33);
       content: 'Click and start typing';
       display: block;
@@ -36,5 +39,7 @@
   data:text/html, <html contenteditable>
   -->
 </head>
-<body contenteditable></body>
+<body>
+  <div contenteditable></div>
+</body>
 </html>
