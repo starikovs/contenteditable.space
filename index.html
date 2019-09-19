@@ -95,7 +95,7 @@
 
   load();
 
-  document.querySelector('[contenteditable]').addEventListener('input', function() {
+  contentEditableElement.addEventListener('input', function() {
     debouncedSave();
   }, false);
 </script>
