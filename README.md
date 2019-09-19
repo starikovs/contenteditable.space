@@ -5,7 +5,7 @@ Get full height contenteditable HTML element to take a quick note or to use it a
 Features:
 * You can take quick notes here which are saved to localstorage.
 * Or you can use it as a simple text editor to copy/paste -> edit -> copy/paste.
-* No cookies 🍪 and it doesn't track you.
+* No cookies 🍪 and we don't track you.
 
 ## What if you don't like it?
 
