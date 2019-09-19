@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Take notes in full height content-editable space in your browser</title>
-  <meta name="description" content="">
+  <title>contenteditable space: super simple note taking space</title>
+  <meta name="description" content="Get full height contenteditable HTML element to take a quick note or to use it as a quick-edit notepad. Synched with localstorage.">
   <link rel="icon" type="image/png" href="https://i.imgur.com/NZrLr3H.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Viacheslav Starikov, https://twitter.com/s_starikov">
@@ -29,7 +29,7 @@
     }
 
     [contenteditable]:empty:before {
-      color: rgba(0,0,0,0.33);
+      color: rgba(0, 0, 0, .33);
       content: 'Click and start typing';
       display: block;
       left: 50%;
@@ -42,7 +42,7 @@
   
   <!--
   If you don't like this service but want something similar,
-  just copy and paste this one line to your browser's tab:
+  just copy and paste this one line to your browser:
   data:text/html, <html contenteditable>
   -->
 </head>
