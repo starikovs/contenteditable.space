@@ -1,5 +1,7 @@
 # Contenteditable.space is a super simple and free note taking web app
 
+Try it now and [take a quick note](https://contenteditable.space)!
+
 Minimalist, secure, in-browser note taking web app. It allows you to take a quick note or to use it for quick-editing something directly in your browser. It uses HTML element contenteditable technology and auto saves your notes or text to localstorage.
 
 Features:
