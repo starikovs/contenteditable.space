@@ -15,7 +15,7 @@ Tech side:
 * No network requests with your data
 * No analytics or cookies 🍪
 
-## Features in:
+## Featured in:
 
 Product Hunt:  
 https://www.producthunt.com/posts/contenteditable-space
