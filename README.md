@@ -3,7 +3,7 @@
 Minimalist, secure, in-browser note taking web app. It allows you to take a quick note or to use it for quick-editing something directly in your browser. It uses HTML element contenteditable technology and auto saves your notes or text to localstorage.
 
 Features:
-* It's **secure** because no data are sent to the Internet
+* It's **secure** because no data is sent to the Internet
 * It's **simple** because you have the full screen for adding notes or editing something
 * Your notes are saved locally to your browser's localstorage
 * You can use it as a notepad to copy/paste -> edit -> copy/paste some text
